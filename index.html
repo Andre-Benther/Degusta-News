@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Degusta News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@0.19.0/qrcode.min.js"></script>
+
+
+    <script src="js/newsTicker.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@3.0.0/dist/fetch.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/weather.js"></script>
+    <!-- <script src="mainn.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <button id="dark-mode-toggle">Dark Mode</button>
+
+      <h1 class="text-center">Degusta News</h1>
+      <div id="weather-info" class="weather-data">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Temperatura (K)</th>
+              <th>Condição</th>
+            </tr>
+          </thead>
+          <tbody id="weather-data"></tbody>
+        </table>
+      </div>
+      
+      <div id="newsData" class="row newsCss">
+        <ul id="newsList" class="ticker">
+        </ul>
+      </div>
+      <div id="newsData"></div>
+     
+      <div class="row controls" id="controls">
+        <button class="btn btn-default prev" id="prev">Prev</button>
+        <button class="btn btn-default next" id="next">Next</button>
+      </div>
+    </div>
+  </body>
+</html>

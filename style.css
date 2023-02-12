@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.weather-data {
+  margin-top: 20px;
+  overflow: auto;
+  max-height: 200px;
+}
+
+.newsCss {
+  margin-top: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.prev,
+.next {
+  margin: 0 10px;
+}
+
+/*
+Tema escuro
+*/
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+#dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #f2f2f2;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.dark-mode table th {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.dark-mode table th,
+.dark-mode table td {
+  background-color: #333;
+  color: #f2f2f2;
+}
+.dark-mode table th {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.dark-mode table td {
+  background-color: #ac7777;
+  color: #444
+}
